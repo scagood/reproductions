@@ -1,0 +1,10 @@
+{
+  "name": "sonar-4777",
+  "type": "module",
+  "packageManager": "yarn@4.4.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-plugin-sonarjs": "2.0.0"
+  }
+}
