@@ -2472,9 +2472,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-sonarjs@npm:2.0.0"
+"eslint-plugin-sonarjs@npm:2.0.1-alpha.0":
+  version: 2.0.1-alpha.0
+  resolution: "eslint-plugin-sonarjs@npm:2.0.1-alpha.0"
   dependencies:
     "@babel/core": "npm:7.24.3"
     "@babel/eslint-parser": "npm:7.24.1"
@@ -2492,12 +2492,13 @@ __metadata:
     eslint-plugin-react-hooks: "npm:4.6.0"
     eslint-scope: "npm:8.0.1"
     functional-red-black-tree: "npm:1.0.1"
+    jsx-ast-utils: "npm:^3.3.5"
     scslre: "npm:0.3.0"
     semver: "npm:7.6.0"
     vue-eslint-parser: "npm:9.4.3"
   peerDependencies:
     eslint: ^8.0.0 || ^9.0.0
-  checksum: 10c0/d779507d53b4489acbf380a8887c377c066e4bc97a0d10bc7de879390de9fa4e936e5cdd359999b103869332f1443f514f320ad54e303708e7f8876e21d4b20f
+  checksum: 10c0/b2a8b6ff5eba2cc7ec8fdf4fe26e45de7b4c63cde37e9704b598028668babc7ea13c4e83c1a12853ac5932cbe98345e0efad2da112319b23452192351dfec7a8
   languageName: node
   linkType: hard
 
@@ -4021,7 +4022,7 @@ __metadata:
   resolution: "sonar-4777@workspace:."
   dependencies:
     eslint: "npm:^8.57.0"
-    eslint-plugin-sonarjs: "npm:2.0.0"
+    eslint-plugin-sonarjs: "npm:2.0.1-alpha.0"
   languageName: unknown
   linkType: soft
 
