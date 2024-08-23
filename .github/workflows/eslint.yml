@@ -12,4 +12,4 @@ jobs:
           node-version: "22"
           cache: yarn
       - run: yarn install
-      - run: yarn run eslint .
+      - run: yarn run eslint src
