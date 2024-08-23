@@ -1,0 +1,9 @@
+{
+  "name": "demo",
+  "type": "module",
+  "dependencies": {
+    "bad-import": "*",
+    "enhanced-resolve": "5.16.1",
+    "good-import": "*"
+  }
+}
