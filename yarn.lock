@@ -5,6 +5,13 @@ __metadata:
   version: 8
   cacheKey: 10
 
+"@altano/repository-tools@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@altano/repository-tools@npm:0.1.1"
+  checksum: 10/a89c427c4b1f241d2c65c03adaf890b8bb80eeea6b71963f5b9a1bd1b8c752a0d7e8acb894e359991deb5edb3cd03d0c96cab87a3de2a11c7a87b862c1625d22
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0":
   version: 7.24.7
   resolution: "@babel/code-frame@npm:7.24.7"
@@ -44,9 +51,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@darksheep/eslint@npm:6.3.1":
-  version: 6.3.1
-  resolution: "@darksheep/eslint@npm:6.3.1"
+"@darksheep/eslint@npm:6.4.0":
+  version: 6.4.0
+  resolution: "@darksheep/eslint@npm:6.4.0"
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.4.0"
     "@eslint/js": "npm:9.10.0"
@@ -59,10 +66,10 @@ __metadata:
     eslint-plugin-jsdoc: "npm:50.2.2"
     eslint-plugin-jsonc: "npm:2.16.0"
     eslint-plugin-n: "npm:17.10.2"
-    eslint-plugin-package-json: "npm:0.15.2"
+    eslint-plugin-package-json: "npm:0.15.3"
     eslint-plugin-perfectionist: "npm:3.5.0"
     eslint-plugin-promise: "npm:7.1.0"
-    eslint-plugin-react: "npm:7.35.2"
+    eslint-plugin-react: "npm:7.36.1"
     eslint-plugin-regexp: "npm:2.6.0"
     eslint-plugin-security: "npm:3.0.1"
     eslint-plugin-unicorn: "npm:55.0.0"
@@ -75,7 +82,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/8b47d8f9e04b4d0953482e8b03d59d7b2c3de2f482191243d6f60fd092df22f92952f3850c6b502774223d49eeadad34b938e34ef0b1ccdf6ece571275f2a491
+  checksum: 10/bf100da7e7e4f5a00dfa7a7d3d0de52c35bbc6d019a58984d62f28947350fb9265ebf6460cae439c26fcf3fff4fcf95df56397e6cf1f31a6c709dbf61dae8cb6
   languageName: node
   linkType: hard
 
@@ -1177,10 +1184,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-package-json@npm:0.15.2":
-  version: 0.15.2
-  resolution: "eslint-plugin-package-json@npm:0.15.2"
+"eslint-plugin-package-json@npm:0.15.3":
+  version: 0.15.3
+  resolution: "eslint-plugin-package-json@npm:0.15.3"
   dependencies:
+    "@altano/repository-tools": "npm:^0.1.1"
     detect-indent: "npm:6.1.0"
     detect-newline: "npm:3.1.0"
     package-json-validator: "npm:^0.6.5"
@@ -1191,7 +1199,7 @@ __metadata:
   peerDependencies:
     eslint: ">=8.0.0"
     jsonc-eslint-parser: ^2.0.0
-  checksum: 10/6663e226f83fc4368bc342f4eeef7b35f7f4c1850fe760545ca7c4f7060452d45fccdccbb8944266b9ba1a7048d7c951fd1e85f2cda40a5a36fb918f3f44557a
+  checksum: 10/ef57f47557dc0890dcdd6e65663a70c8527ebf85818bc57b3b2033c2a8bb175cc73b268edde9da430399bc6eae60045180ba83d3038122d91d762c36cc74087e
   languageName: node
   linkType: hard
 
@@ -1231,9 +1239,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.35.2":
-  version: 7.35.2
-  resolution: "eslint-plugin-react@npm:7.35.2"
+"eslint-plugin-react@npm:7.36.1":
+  version: 7.36.1
+  resolution: "eslint-plugin-react@npm:7.36.1"
   dependencies:
     array-includes: "npm:^3.1.8"
     array.prototype.findlast: "npm:^1.2.5"
@@ -1255,7 +1263,7 @@ __metadata:
     string.prototype.repeat: "npm:^1.0.0"
   peerDependencies:
     eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9.7
-  checksum: 10/f4631612444f9066c8007e9433c0972754b75d33be410cd18dcf003e4209600240dec3e50a9962aae35e9a08920a1eb60e51d3cc140e5f6c95582e727ebec74e
+  checksum: 10/bca154b446c35af4859a92fd043dcfe5c74851eb27652234020548570bb81d37cc9f1eb1795b3c9e7514de6c9b48f42fcc00153062eca879dab45ab84e49d0b1
   languageName: node
   linkType: hard
 
@@ -3010,7 +3018,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sonar-4777@workspace:."
   dependencies:
-    "@darksheep/eslint": "npm:6.3.1"
+    "@darksheep/eslint": "npm:6.4.0"
     "@darksheep/eslint-formatter-github": "npm:2.0.1"
     eslint: "npm:9.10.0"
     typescript: "npm:5.6.2"
