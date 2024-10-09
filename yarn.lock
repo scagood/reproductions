@@ -58,9 +58,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@darksheep/eslint@npm:6.5.0":
-  version: 6.5.0
-  resolution: "@darksheep/eslint@npm:6.5.0"
+"@darksheep/eslint@npm:6.5.1":
+  version: 6.5.1
+  resolution: "@darksheep/eslint@npm:6.5.1"
   dependencies:
     "@darksheep/environment": "npm:3.0.9"
     "@eslint-community/eslint-plugin-eslint-comments": "npm:4.4.0"
@@ -88,7 +88,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/9d7190de29d240f569214db7908e96a95af64705f0e2d467f0e420fa8fa2cc0c193a2cd4addec0bd9801be9faf4de240180f29418bafd3307be0444fd2a6277a
+  checksum: 10/69d4bf0e4ea0ff0ba6763fca2500065b471fe80b3e0b4e9a0250e69e9ebb9822ca4b375d645b52240766036d52acc52ebeed51987767e8a8ed48aa28e50dfa75
   languageName: node
   linkType: hard
 
@@ -3067,7 +3067,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "sonar-4777@workspace:."
   dependencies:
-    "@darksheep/eslint": "npm:6.5.0"
+    "@darksheep/eslint": "npm:6.5.1"
     "@darksheep/eslint-formatter-github": "npm:2.0.1"
     eslint: "npm:9.12.0"
     typescript: "npm:5.6.3"
