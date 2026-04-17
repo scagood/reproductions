@@ -37,13 +37,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@darksheep/eslint-formatter-github@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@darksheep/eslint-formatter-github@npm:2.1.0"
+"@darksheep/eslint-formatter-github@npm:2.2.1":
+  version: 2.2.1
+  resolution: "@darksheep/eslint-formatter-github@npm:2.2.1"
   dependencies:
-    "@darksheep/github-actions": "npm:2.0.9"
-    "@darksheep/package.json": "npm:3.0.1"
-  checksum: 10/fa08f3a1853c1b785a1d229f7c8d3fc23610c472aede38a31c3fe6185153d7a89b7caee59d93d3b89db7bad683350ac181a2baa4ac4ce92c67c6688c6ddac2ad
+    "@darksheep/github-actions": "npm:2.1.0"
+    "@darksheep/package.json": "npm:3.1.0"
+  checksum: 10/763c2736ec6ddf8cdd6fa77c131fd818a22ee67e8de2a2322b85100b89789e9137071564af77972f632e58153398343d94e45ac024efc2828990d47562b71ade
   languageName: node
   linkType: hard
 
@@ -81,19 +81,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@darksheep/github-actions@npm:2.0.9":
-  version: 2.0.9
-  resolution: "@darksheep/github-actions@npm:2.0.9"
+"@darksheep/github-actions@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@darksheep/github-actions@npm:2.1.0"
   dependencies:
-    "@darksheep/package.json": "npm:3.0.1"
-  checksum: 10/cfca79ba4a53fb06f45f940fd9863c09cd9014d7e536d3e8fc91fbcfb530c8a2ef8d1b2b5adbcc7ca8e65596e7e524b370d6c15b75c841aa84997aac751fdb5a
+    "@darksheep/package.json": "npm:3.1.0"
+  checksum: 10/a33c2ee30c1bace0a5d1183e7eba1bb4b703df86ea466937c7ca38b836bbdeaf105a27e39d126e1391e5275a8a51744eb7355c147205106c1a0dd4ded97fc1c6
   languageName: node
   linkType: hard
 
-"@darksheep/package.json@npm:3.0.1":
-  version: 3.0.1
-  resolution: "@darksheep/package.json@npm:3.0.1"
-  checksum: 10/70660f827d68002bc76ffac6e64068d933bd18c7fc61d3260c643d924e388d261c4fa686999c79a193c4c873c7d8d2fff0fdccafc7a25e40c0ef1c489dfd6cac
+"@darksheep/package.json@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@darksheep/package.json@npm:3.1.0"
+  checksum: 10/e74d2b725502ce94e24494fe4900a5bd15af7fd1d7b934337415c20f9d3c380c7d45afa995dd3e17d200215cd875a9aacc5bd362d3c00e7111f29151c53898d6
   languageName: node
   linkType: hard
 
@@ -3054,7 +3054,7 @@ __metadata:
   resolution: "sonar-4777@workspace:."
   dependencies:
     "@darksheep/eslint": "npm:6.7.3"
-    "@darksheep/eslint-formatter-github": "npm:2.1.0"
+    "@darksheep/eslint-formatter-github": "npm:2.2.1"
     eslint: "npm:9.25.1"
     typescript: "npm:5.8.3"
   languageName: unknown
