@@ -6,7 +6,7 @@
     "githooks": "git config core.hooksPath .github/hooks"
   },
   "devDependencies": {
-    "@darksheep/eslint": "6.7.3",
+    "@darksheep/eslint": "6.9.0",
     "@darksheep/eslint-formatter-github": "2.1.0",
     "eslint": "9.25.1",
     "typescript": "5.8.3"
